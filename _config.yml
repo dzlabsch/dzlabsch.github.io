@@ -6,11 +6,9 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
-
+title: DZLabs GmbH
 # Your name to show in the footer
-author: Some Person
-
+author: Dennis Zimmer
 # --- List of links in the navigation bar --- #
 
 navbar-links:
