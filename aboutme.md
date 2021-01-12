@@ -38,7 +38,11 @@ Our development stack:
 ## Contact Details
 
 DZLabs GmbH
+
 Hörnlistrasse 7
+
 6403 Küssnacht am Rigi
+
 Switzerland
+
 CHE-365.773.787
