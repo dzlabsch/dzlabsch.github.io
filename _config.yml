@@ -12,7 +12,7 @@ author: Dennis Zimmer
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About: "aboutme"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
