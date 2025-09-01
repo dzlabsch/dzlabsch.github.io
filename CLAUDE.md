@@ -67,7 +67,7 @@ DZLabs GmbH is a Swiss IT consulting company specializing in:
 - Open source monitoring/observability tools (Grafana, Prometheus, InfluxDB, ElasticSearch)
 - Development stack: PowerShell, Python, Bash, .NET (C#), Node.js
 - VMware virtualization and cloud solutions
-- Founded by Dennis Zimmer (9x VMware vExpert)
+- Founded by Dennis Zimmer (16x VMware vExpert)
 
 ## Common Development Tasks
 
