@@ -6,9 +6,9 @@ subtitle: Leading AI Transformation - From Traditional IT to Next-Generation Int
 
 ## AI-First Consulting Excellence
 
-We're a forward-thinking group of AI consultants, system architects, and software engineers leveraging 20+ years of enterprise experience to guide businesses into the **AI-first economy**. We specialize in **enterprise AI transformation**, **agentic workflows**, and **intelligent automation** solutions that drive measurable business outcomes.
+We're a forward-thinking group of AI consultants, system architects, and software engineers leveraging over 25 years of enterprise experience to guide businesses into the **AI-first economy**. We specialize in **enterprise AI transformation**, **agentic workflows**, and **intelligent automation** solutions that drive measurable business outcomes.
 
-Founded by **Dennis Zimmer**, a 16x VMware vExpert, book author, and technology leader with nearly two decades in enterprise virtualization and cloud computing, DZLabs now pioneers the intersection of **traditional infrastructure** and **cutting-edge artificial intelligence**.
+Founded by **Dennis Zimmer**, a 16x VMware vExpert, book author, and technology leader with over 25 years of experience in enterprise virtualization and cloud computing, DZLabs now pioneers the intersection of **traditional infrastructure** and **cutting-edge artificial intelligence**.
 
 ## Our AI Transformation Philosophy
 
@@ -64,7 +64,7 @@ At DZLabs GmbH, we believe that strategic AI adoption combined with robust infra
 
 * **16x VMware vExpert** (Virtualization & Cloud)
 * **AI/ML Specializations** - OpenAI, Google Cloud AI, Azure AI
-* **Enterprise Architecture** - 20+ years in large-scale systems
+* **Enterprise Architecture** - 25+ years in large-scale systems
 * **Published Author** - Technical books on virtualization and AI integration
 * **Technology Thought Leader** - Speaker at international conferences
 
