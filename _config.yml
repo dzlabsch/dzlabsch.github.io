@@ -13,6 +13,8 @@ author: Dennis Zimmer
 
 navbar-links:
   About: "aboutme"
+  AI Services: ""
+  Contact: "mailto:dennis@dzlabs.ch"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -52,7 +54,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: DZLabs GmbH, Switzerland
+rss-description: "DZLabs GmbH - AI Consulting & Enterprise Transformation - Switzerland | ChatGPT, Claude, Gemini Integration Experts"
 
 # --- General options --- #
 
@@ -77,22 +79,22 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "AI consulting,artificial intelligence,ChatGPT integration,Claude AI,Gemini AI,agentic workflows,LLM integration,AI automation,machine learning consulting,enterprise AI,OpenAI,Anthropic,Google AI,AI strategy,intelligent automation,RAG implementation,vector databases,AI transformation,generative AI,AI orchestration,MLOps,prompt engineering,AI governance,conversational AI,AI-powered solutions"
 
 # --- Colours / background image --- #
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#667eea"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#5a6fd8"
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+text-col: "#2c3e50"
+link-col: "#667eea"
+hover-col: "#5a6fd8"
+footer-col: "#2c3e50"
+footer-text-col: "#ecf0f1"
+footer-link-col: "#667eea"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
