@@ -1,0 +1,104 @@
+/* Custom Service Card Styles */
+.service-card {
+    background: #f8f9fa !important;
+    padding: 25px !important;
+    border-radius: 12px !important;
+    height: 100% !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+    border: none !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.service-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.service-card.border-blue {
+    border-left: 4px solid #007bff !important;
+}
+
+.service-card.border-green {
+    border-left: 4px solid #28a745 !important;
+}
+
+.service-card.border-yellow {
+    border-left: 4px solid #ffc107 !important;
+}
+
+.service-card.border-red {
+    border-left: 4px solid #dc3545 !important;
+}
+
+.service-card h4 {
+    color: #2c3e50 !important;
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+}
+
+.service-card p {
+    color: #6c757d !important;
+    line-height: 1.6 !important;
+    margin-bottom: 0 !important;
+}
+
+.ai-services-container {
+    padding: 0 40px !important;
+}
+
+.ai-services-title {
+    margin-bottom: 30px !important;
+    color: #2c3e50 !important;
+    font-weight: 700 !important;
+}
+
+.service-column {
+    margin-bottom: 30px !important;
+    padding: 0 15px !important;
+}
+
+.feature-card {
+    padding: 25px !important;
+    background: rgba(255,255,255,0.8) !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    height: 100% !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    padding: 30px !important;
+    border-radius: 8px !important;
+    margin: 30px 0 !important;
+}
+
+.cta-btn {
+    background: white !important;
+    color: #667eea !important;
+    font-weight: bold !important;
+    padding: 10px 30px !important;
+    border-radius: 25px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: all 0.3s ease !important;
+}
+
+.cta-btn:hover {
+    background: #f8f9fa !important;
+    color: #667eea !important;
+    text-decoration: none !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .ai-services-container {
+        padding: 0 20px !important;
+    }
+    
+    .service-column {
+        padding: 0 10px !important;
+    }
+}
