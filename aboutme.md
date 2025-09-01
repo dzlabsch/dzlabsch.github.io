@@ -2,7 +2,7 @@
 layout: page
 title: About DZLabs
 subtitle: Leading AI Transformation - From Traditional IT to Next-Generation Intelligent Solutions
-full-width: true
+css: "/assets/css/custom-services.css"
 ---
 
 ## AI-First Consulting Excellence

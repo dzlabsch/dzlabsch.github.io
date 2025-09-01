@@ -1,3 +1,9 @@
+/* Global 90% Width Layout */
+.container-fluid, .container-md {
+    max-width: 90% !important;
+    margin: 0 auto !important;
+}
+
 /* Custom Service Card Styles */
 .service-card {
     background: #f8f9fa !important;
@@ -43,7 +49,7 @@
 }
 
 .ai-services-container {
-    padding: 0 40px !important;
+    padding: 0 20px !important;
 }
 
 .ai-services-title {
