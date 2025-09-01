@@ -3,10 +3,17 @@ _site
 .sass-cache
 .vagrant
 
+# Ruby/Bundle dependencies
+vendor/
+.bundle/
+
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
+
+# MCP configuration
+.mcp.json
 
 Gemfile.lock
 

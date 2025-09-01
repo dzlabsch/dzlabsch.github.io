@@ -1,3 +1,0 @@
-current directory: /home/dennis/github/dzlabsch.github.io/vendor/bundle/ruby/3.1.0/gems/google-protobuf-4.32.0/ext/google/protobuf_c
-/usr/bin/ruby3.1 -I/usr/lib/ruby/vendor_ruby -rrubygems /home/dennis/github/dzlabsch.github.io/vendor/bundle/ruby/3.1.0/gems/rake-13.3.0/exe/rake RUBYARCHDIR\=/home/dennis/github/dzlabsch.github.io/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/google-protobuf-4.32.0 RUBYLIBDIR\=/home/dennis/github/dzlabsch.github.io/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/google-protobuf-4.32.0
-Skipping build of FFI; `gem install ffi-compiler` to enable.
