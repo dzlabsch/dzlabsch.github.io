@@ -102,9 +102,12 @@ At DZLabs GmbH, we believe that strategic AI adoption combined with robust infra
     <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border: 1px solid #e9ecef;">
       <h4 style="color: #2c3e50; margin-bottom: 20px; text-align: center;">💬 Get in Touch</h4>
       <div style="text-align: center;">
-        <a href="mailto:dennis@dzlabs.ch" style="display: inline-block; background: #667eea; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; margin-bottom: 15px; font-weight: bold; transition: all 0.3s ease;">
-          📧 dennis@dzlabs.ch
+        <a href="#" onclick="location.href='mailto:'+atob('ZGVubmlz')+atob('QA==')+atob('ZHpsYWJzLmNo'); return false;" style="display: inline-block; background: #667eea; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; margin-bottom: 15px; font-weight: bold; transition: all 0.3s ease;">
+          📧 <span id="email-display">Contact Email</span>
         </a>
+        <script>
+          document.getElementById('email-display').textContent = atob('ZGVubmlz') + atob('QA==') + atob('ZHpsYWJzLmNo');
+        </script>
         <p style="color: #6c757d; font-size: 14px; margin-bottom: 0;">Ready to transform your business with AI? Let's discuss your project.</p>
       </div>
     </div>
@@ -114,5 +117,5 @@ At DZLabs GmbH, we believe that strategic AI adoption combined with robust infra
 <div style="text-align: center; margin: 40px 0; padding: 25px; background: rgba(102, 126, 234, 0.1); border-radius: 12px; border-left: 4px solid #667eea;">
   <h4 style="color: #2c3e50; margin-bottom: 15px;">🚀 Ready to Start Your AI Journey?</h4>
   <p style="color: #6c757d; margin-bottom: 20px;">From strategy to implementation, we're here to guide your AI transformation every step of the way.</p>
-  <a href="mailto:dennis@dzlabs.ch?subject=AI Consultation Request" style="background: #667eea; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;">Schedule a Consultation</a>
+  <a href="#" onclick="location.href='mailto:'+atob('ZGVubmlz')+atob('QA==')+atob('ZHpsYWJzLmNo')+'?subject=AI Consultation Request'; return false;" style="background: #667eea; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;">Schedule a Consultation</a>
 </div>
