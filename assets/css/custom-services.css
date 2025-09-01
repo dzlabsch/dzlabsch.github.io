@@ -1,7 +1,14 @@
 /* Global 90% Width Layout */
-.container-fluid, .container-md {
+.container-fluid[role="main"], .container-md[role="main"] {
     max-width: 90% !important;
     margin: 0 auto !important;
+}
+
+/* Also constrain the ai-services-container specifically */
+.ai-services-container {
+    max-width: 90% !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
 }
 
 /* Custom Service Card Styles */
@@ -48,9 +55,7 @@
     margin-bottom: 0 !important;
 }
 
-.ai-services-container {
-    padding: 0 20px !important;
-}
+/* Removed duplicate - padding handled above */
 
 .ai-services-title {
     margin-bottom: 30px !important;
