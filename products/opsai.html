@@ -1,0 +1,138 @@
+---
+layout: page
+title: OpsAI
+permalink: /products/opsai/
+subtitle: Your hypervisors and clouds, looked after daily
+description: "OpsAI by DZLabs - automated daily care for vSphere, Proxmox VE, Nutanix, AWS and Google Cloud with deterministic checks, a Claude-written morning briefing and one-tap safe fixes."
+css:
+  - "/assets/css/custom-services.css"
+  - "/assets/css/products.css"
+full-width: true
+---
+
+{% assign img = '/assets/img/products/opsai/' | relative_url %}
+{% assign contact = '/aboutme#contact' | relative_url %}
+
+<section class="product-hero">
+  <div class="product-hero-text">
+    <p class="product-eyebrow">DZLabs Products · OpsAI</p>
+    <h2>Every morning: what is wrong, what changed, what got fixed.</h2>
+    <p class="product-lead">OpsAI snapshots each environment every hour, runs deterministic checks, turns what it finds into plain-language findings and writes one morning briefing with Claude. The safe fixes take one tap.</p>
+    <div class="product-pipeline">Environment → Findings → Fixed</div>
+    <div class="product-actions">
+      <a class="btn-product btn-product-primary" href="{{ contact }}">Get Started</a>
+      <a class="btn-product btn-product-ghost" href="#screenshots">See it in action</a>
+    </div>
+  </div>
+  <figure class="shot product-hero-shot">
+    <a href="{{ img }}today.jpg" target="_blank" rel="noopener"><img src="{{ img }}today.jpg" alt="OpsAI Today view with the lead story, estate health score and the findings that need attention"></a>
+  </figure>
+</section>
+
+<section class="product-section">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 service-column">
+      <div class="service-card border-blue">
+        <h4>⏱ Hourly collection</h4>
+        <p>Read-only snapshots of vCenter, Proxmox VE, Nutanix, AWS and Google Cloud. Partial collections are tolerated; a failed section never resolves findings it did not read.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 service-column">
+      <div class="service-card border-green">
+        <h4>✅ 50+ deterministic checks</h4>
+        <p>Host state, alarms, datastore days-to-full, old snapshots, missing and stale backups, certificates, HA/DRS, quorum, ZFS, Ceph, public exposure, idle and oversized VMs. Thresholds live in JSON, not in code.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 service-column">
+      <div class="service-card border-yellow">
+        <h4>📰 A briefing, not a dashboard</h4>
+        <p>Once a day Claude writes one headline and three short lists: today, changed since the last briefing, and fixed. Checks decide, Claude writes the words.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-section">
+  <h3 class="ai-services-title text-center">How it works</h3>
+  <div class="product-steps">
+    <div class="product-step">
+      <h4>Collect</h4>
+      <p>Every hour OpsAI reads each environment with a read-only account or API token.</p>
+    </div>
+    <div class="product-step">
+      <h4>Check</h4>
+      <p>Deterministic checks open, refresh and resolve findings on their own. No guessing.</p>
+    </div>
+    <div class="product-step">
+      <h4>Brief</h4>
+      <p>Claude turns the findings into a morning briefing and explains any finding on request, with the exact commands.</p>
+    </div>
+    <div class="product-step">
+      <h4>Fix</h4>
+      <p>Allowlisted fixes run after one tap, with live preconditions. The next collection verifies the result.</p>
+    </div>
+  </div>
+</section>
+
+<section class="product-section" id="screenshots">
+  <h3 class="ai-services-title text-center">See it in action</h3>
+  <div class="product-gallery">
+    <figure class="shot">
+      <a href="{{ img }}briefing.jpg" target="_blank" rel="noopener"><img src="{{ img }}briefing.jpg" alt="Claude-written daily briefing" loading="lazy"></a>
+      <figcaption><strong>The daily briefing.</strong> Today, changed since the last briefing, cleared, plus a weekly summary of what kept coming back.</figcaption>
+    </figure>
+    <figure class="shot">
+      <a href="{{ img }}finding.jpg" target="_blank" rel="noopener"><img src="{{ img }}finding.jpg" alt="Finding page with Claude's explanation and fix commands" loading="lazy"></a>
+      <figcaption><strong>Every finding explained.</strong> What it is, why it matters, what to do, Claude's take and the commands to run yourself, or one tap to fix.</figcaption>
+    </figure>
+    <figure class="shot shot-wide">
+      <a href="{{ img }}triage.jpg" target="_blank" rel="noopener"><img src="{{ img }}triage.jpg" alt="Triage deck grouping findings into stories" loading="lazy"></a>
+      <figcaption><strong>Triage in minutes.</strong> Findings grouped into stories, biggest first. Fix, snooze or dismiss with one key.</figcaption>
+    </figure>
+    <figure class="shot shot-wide">
+      <a href="{{ img }}estate.jpg" target="_blank" rel="noopener"><img src="{{ img }}estate.jpg" alt="Estate overview across vSphere, Proxmox VE, AWS and Google Cloud" loading="lazy"></a>
+      <figcaption><strong>The whole estate at a glance.</strong> Every environment by its worst open finding, with capacity and cloud cost.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="product-section">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 service-column">
+      <div class="feature-card">
+        <h5 style="color: #667eea;">🛡 Safe by design</h5>
+        <p>No autopilot. Nothing runs without a write credential and an enabled action kind. Every stored credential is sealed.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 service-column">
+      <div class="feature-card">
+        <h5 style="color: #28a745;">🔁 Findings that manage themselves</h5>
+        <p>Findings open, refresh and resolve on their own. Snooze for 7 days or dismiss; a dismissed finding returns only after it resolved once.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 service-column">
+      <div class="feature-card">
+        <h5 style="color: #dc3545;">📦 One binary, one file</h5>
+        <p>A single static Go binary with the web client embedded and one SQLite file. Runs on your own host, phone-first UI.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-section text-center">
+  <h3 class="ai-services-title">Works with</h3>
+  <div class="product-platforms" style="justify-content: center;">
+    <span>VMware vSphere</span>
+    <span>Proxmox VE</span>
+    <span>Nutanix AHV</span>
+    <span>AWS</span>
+    <span>Google Cloud</span>
+    <span>Anthropic Claude</span>
+  </div>
+</section>
+
+<div class="cta-section text-center">
+  <h3 style="color: white;">Ready for calmer mornings?</h3>
+  <p>Tell us about your environment and we will help you get OpsAI running on it.</p>
+  <a class="cta-btn" href="{{ contact }}">Get Started</a>
+</div>

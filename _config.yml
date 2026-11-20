@@ -13,6 +13,9 @@ author: Dennis Zimmer
 
 navbar-links:
   Services: "/#ai-consulting-services"
+  Products:
+    - Overview: "products/"
+    - OpsAI: "products/opsai/"
   About: "aboutme"
 # --- Logo --- #
 

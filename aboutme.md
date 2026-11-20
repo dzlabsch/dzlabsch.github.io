@@ -79,7 +79,7 @@ At DZLabs GmbH, we believe that strategic AI adoption combined with robust infra
 ✅ **Swiss Quality & Precision** - Meticulous attention to detail and reliability  
 ✅ **End-to-End Service** - Strategy through implementation and optimization
 
-## 📞 Contact Information
+## 📞 Contact Information {#contact}
 
 <div class="row" style="margin-top: 30px;">
   <div class="col-md-8">
