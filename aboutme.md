@@ -81,43 +81,25 @@ At DZLabs GmbH, we believe that strategic AI adoption combined with robust infra
 
 ## 📞 Contact Information {#contact}
 
-<div class="row" style="margin-top: 30px;">
-  <div class="col-md-8">
-    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 12px; margin-bottom: 20px;">
-      <div class="row">
-        <div class="col-md-6">
-          <h4 style="color: white; margin-bottom: 20px; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">🏢 Company Details</h4>
-          <p style="margin-bottom: 8px;"><strong>DZLabs GmbH</strong></p>
-          <p style="margin-bottom: 8px; opacity: 0.9;">CHE-365.773.787</p>
-          <p style="margin-bottom: 15px; opacity: 0.9;">Swiss IT Consulting Company</p>
-        </div>
-        <div class="col-md-6">
-          <h4 style="color: white; margin-bottom: 20px; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">📍 Address</h4>
-          <p style="margin-bottom: 8px; opacity: 0.9;">Hörnlistrasse 7</p>
-          <p style="margin-bottom: 8px; opacity: 0.9;">6403 Küssnacht am Rigi</p>
-          <p style="margin-bottom: 15px; opacity: 0.9;">Switzerland</p>
-        </div>
-      </div>
-    </div>
+<div class="dz-contact">
+  <div>
+    <h3>Company</h3>
+    <p><strong>DZLabs GmbH</strong></p>
+    <p>CHE-365.773.787</p>
+    <p>Swiss IT Consulting Company</p>
   </div>
-  <div class="col-md-4">
-    <div style="background: #f8f9fa; padding: 25px; border-radius: 12px; border: 1px solid #e9ecef;">
-      <h4 style="color: #2c3e50; margin-bottom: 20px; text-align: center;">💬 Get in Touch</h4>
-      <div style="text-align: center;">
-        <a href="#" onclick="location.href='mailto:'+atob('ZGVubmlz')+atob('QA==')+atob('ZHpsYWJzLmNo'); return false;" style="display: inline-block; background: #667eea; color: white; padding: 12px 25px; border-radius: 25px; text-decoration: none; margin-bottom: 15px; font-weight: bold; transition: all 0.3s ease;">
-          📧 <span id="email-display">Contact Email</span>
-        </a>
-        <script>
-          document.getElementById('email-display').textContent = atob('ZGVubmlz') + atob('QA==') + atob('ZHpsYWJzLmNo');
-        </script>
-        <p style="color: #6c757d; font-size: 14px; margin-bottom: 0;">Ready to transform your business with AI? Let's discuss your project.</p>
-      </div>
-    </div>
+  <div>
+    <h3>Address</h3>
+    <p>Räbmatt 7</p>
+    <p>6403 Küssnacht am Rigi</p>
+    <p>Switzerland</p>
   </div>
-</div>
-
-<div style="text-align: center; margin: 40px 0; padding: 25px; background: rgba(102, 126, 234, 0.1); border-radius: 12px; border-left: 4px solid #667eea;">
-  <h4 style="color: #2c3e50; margin-bottom: 15px;">🚀 Ready to Start Your AI Journey?</h4>
-  <p style="color: #6c757d; margin-bottom: 20px;">From strategy to implementation, we're here to guide your AI transformation every step of the way.</p>
-  <a href="#" onclick="location.href='mailto:'+atob('ZGVubmlz')+atob('QA==')+atob('ZHpsYWJzLmNo')+'?subject=AI Consultation Request'; return false;" style="background: #667eea; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; transition: all 0.3s ease;">Schedule a Consultation</a>
+  <div>
+    <h3>Get in touch</h3>
+    <p>Ready to transform your business with AI? Let's discuss your project.</p>
+    <p style="margin-top: 1rem;"><a class="dz-btn dz-btn-red" href="#" onclick="location.href='mailto:'+atob('ZGVubmlz')+atob('QA==')+atob('ZHpsYWJzLmNo')+'?subject=AI Consultation Request'; return false;"><span id="email-display">Schedule a Consultation</span></a></p>
+    <script>
+      document.getElementById('email-display').textContent = atob('ZGVubmlz') + atob('QA==') + atob('ZHpsYWJzLmNo');
+    </script>
+  </div>
 </div>

@@ -1,75 +1,90 @@
 ---
-layout: home
+layout: base
 title: DZLabs GmbH
 subtitle: Your Partner for Next-Gen AI Transformation - Empowering enterprises with cutting-edge AI solutions, agentic workflows, and intelligent automation.
-css: "/assets/css/custom-services.css"
-full-width: true
 ---
 
-<div class="container-fluid ai-services-container">
-  <div class="row">
-    <div class="col-12">
-      <h2 id="ai-consulting-services" class="text-center ai-services-title">AI Consulting Services</h2>
-      
-      <div class="row">
-        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 service-column">
-          <div class="service-card border-blue">
-            <h4>🤖 Agentic AI Workflows</h4>
-            <p>Design and implement autonomous AI agent systems that break down complex tasks, utilize diverse tools, and self-correct for optimal outcomes. Our advanced orchestration frameworks build intelligent workflows that automate multi-step processes, delivering significant operational efficiency.</p>
-          </div>
-        </div>
-        
-        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 service-column">
-          <div class="service-card border-green">
-            <h4>🧠 Enterprise LLM Integration</h4>
-            <p>Securely integrate Large Language Models (ChatGPT, Claude, Gemini) into your enterprise architecture. Services include API integration, fine-tuning with proprietary data, and implementing RAG for context-aware responses.</p>
-          </div>
-        </div>
-        
-        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 service-column">
-          <div class="service-card border-yellow">
-            <h4>⚡ AI-Powered Automation</h4>
-            <p>Develop intelligent automation solutions by embedding AI and machine learning into business processes. From predictive analytics to intelligent document processing and RPA, we automate repetitive and complex tasks.</p>
-          </div>
-        </div>
-        
-        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 service-column">
-          <div class="service-card border-red">
-            <h4>🎯 Multi-Platform AI Strategy</h4>
-            <p>Navigate the evolving AI landscape with our vendor-agnostic strategy. We help select, benchmark, and integrate optimal LLM platforms (Claude, GPT, Gemini, Copilot) for specific use cases, ensuring future-proof AI investments.</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="text-center" style="margin: 50px 0;">
-        <h3 class="ai-services-title">Why Choose DZLabs for AI Transformation?</h3>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 service-column">
-            <div class="feature-card">
-              <h5 style="color: #007bff;">🏆 Expert-Led</h5>
-              <p>Founded by Dennis Zimmer, 16x VMware vExpert with 25+ years in enterprise technology.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 service-column">
-            <div class="feature-card">
-              <h5 style="color: #28a745;">🔒 Enterprise-Grade</h5>
-              <p>Secure, compliant AI solutions designed for enterprise environments and data governance.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 service-column">
-            <div class="feature-card">
-              <h5 style="color: #ffc107;">🚀 Future-Ready</h5>
-              <p>Cutting-edge AI strategies that scale with your business and adapt to emerging technologies.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="text-center cta-section">
-        <h4>Ready to Transform Your Business with AI?</h4>
-        <p style="margin-bottom: 20px; opacity: 0.9;">Partner with DZLabs for AI strategy, responsible AI deployment, and data-driven decision-making.</p>
-        <a href="mailto:dennis@dzlabs.ch" class="cta-btn">Contact Us Today</a>
+<main class="dz-home" role="main">
+
+  <section class="dz-wrap dz-hero">
+    <div>
+      <p class="dz-eyebrow">DZLabs GmbH · AI Consulting</p>
+      <h1>Next-gen AI, engineered with Swiss precision.</h1>
+    </div>
+    <div>
+      <p class="dz-hero-lead">Your Partner for Next-Gen AI Transformation - Empowering enterprises with cutting-edge AI solutions, agentic workflows, and intelligent automation.</p>
+      <div class="dz-actions">
+        <a class="dz-btn dz-btn-red" href="{{ '/aboutme#contact' | relative_url }}">Schedule a consultation</a>
+        <a class="dz-btn" href="{{ '/products/opsai/' | relative_url }}">See OpsAI</a>
       </div>
     </div>
-  </div>
-</div>
+  </section>
+
+  <section class="dz-facts" aria-label="Credentials">
+    <div class="dz-wrap">
+      <div class="dz-fact"><strong>25+</strong><span>years in enterprise technology</span></div>
+      <div class="dz-fact"><strong>16×</strong><span>VMware vExpert</span></div>
+      <div class="dz-fact"><strong>4</strong><span>LLM platforms, vendor-agnostic</span></div>
+      <div class="dz-fact"><strong>CH</strong><span>Swiss quality and data governance</span></div>
+    </div>
+  </section>
+
+  <section class="dz-wrap dz-section">
+    <div class="dz-section-head">
+      <h2 id="ai-consulting-services" class="dz-h2">AI Consulting Services</h2>
+      <p>Four practices, one team. Strategy through implementation and optimization.</p>
+    </div>
+    <div class="dz-services">
+      <article class="dz-service">
+        <span class="dz-num">01</span>
+        <h3>Agentic AI Workflows</h3>
+        <p>Design and implement autonomous AI agent systems that break down complex tasks, use diverse tools and self-correct. Our orchestration frameworks automate multi-step processes end to end.</p>
+      </article>
+      <article class="dz-service">
+        <span class="dz-num">02</span>
+        <h3>Enterprise LLM Integration</h3>
+        <p>Securely integrate Large Language Models (ChatGPT, Claude, Gemini) into your enterprise architecture: API integration, fine-tuning with proprietary data and RAG for context-aware responses.</p>
+      </article>
+      <article class="dz-service">
+        <span class="dz-num">03</span>
+        <h3>AI-Powered Automation</h3>
+        <p>Embed AI and machine learning into business processes. From predictive analytics to intelligent document processing and RPA, we automate repetitive and complex tasks.</p>
+      </article>
+      <article class="dz-service">
+        <span class="dz-num">04</span>
+        <h3>Multi-Platform AI Strategy</h3>
+        <p>A vendor-agnostic strategy: we select, benchmark and integrate the right LLM platform (Claude, GPT, Gemini, Copilot) for each use case, so your AI investments stay future-proof.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="dz-dark">
+    <div class="dz-wrap dz-product">
+      <div>
+        <p class="dz-eyebrow">Product</p>
+        <h2 class="dz-h2">OpsAI</h2>
+        <p class="dz-product-lead">Your hypervisors and clouds, looked after daily. Every morning: what is wrong, what changed, what got fixed.</p>
+        <ul class="dz-dash-list">
+          <li>Hourly collection across vSphere, Proxmox VE, Nutanix, AWS and Google Cloud</li>
+          <li>50+ deterministic checks</li>
+          <li>A Claude-written morning briefing, plus one-tap safe fixes</li>
+        </ul>
+        <a class="dz-btn dz-btn-light" href="{{ '/products/opsai/' | relative_url }}">Explore OpsAI</a>
+      </div>
+      <img src="{{ '/assets/img/products/opsai/briefing.jpg' | relative_url }}" alt="OpsAI daily briefing written by Claude" loading="lazy">
+    </div>
+  </section>
+
+  <section class="dz-wrap dz-section dz-why">
+    <div>
+      <h2 class="dz-h2">Why choose DZLabs for AI transformation?</h2>
+      <p>Founded by Dennis Zimmer, 16× VMware vExpert, book author and speaker with over 25 years in enterprise virtualization and cloud. We join traditional infrastructure and modern AI without the usual enterprise complexity.</p>
+    </div>
+    <div class="dz-rows">
+      <div class="dz-row"><strong>Expert-led</strong><span>Founded by Dennis Zimmer, 16x VMware vExpert with 25+ years in enterprise technology.</span></div>
+      <div class="dz-row"><strong>Enterprise-grade</strong><span>Secure, compliant AI solutions designed for enterprise environments and data governance.</span></div>
+      <div class="dz-row"><strong>Future-ready</strong><span>AI strategies that scale with your business and adapt to emerging technologies.</span></div>
+    </div>
+  </section>
+
+</main>

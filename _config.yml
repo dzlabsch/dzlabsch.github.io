@@ -17,6 +17,7 @@ navbar-links:
     - Overview: "products/"
     - OpsAI: "products/opsai/"
   About: "aboutme"
+  Contact: "aboutme#contact"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -87,13 +88,13 @@ keywords: "AI consulting,artificial intelligence,ChatGPT integration,Claude AI,G
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#667eea"
-navbar-text-col: "#FFFFFF"
-navbar-border-col: "#5a6fd8"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#111111"
+navbar-border-col: "#EEEEEE"
 page-col: "#FFFFFF"
-text-col: "#2c3e50"
-link-col: "#667eea"
-hover-col: "#5a6fd8"
+text-col: "#333333"
+link-col: "#B81F18"
+hover-col: "#111111"
 footer-col: "#2c3e50"
 footer-text-col: "#ecf0f1"
 footer-link-col: "#667eea"
@@ -106,11 +107,11 @@ footer-link-col: "#667eea"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
+mobile-theme-col: "#FFFFFF"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/dzlabs.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:

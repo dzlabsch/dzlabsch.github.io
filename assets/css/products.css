@@ -3,7 +3,7 @@
 }
 
 .product-eyebrow {
-    color: #667eea;
+    color: #B81F18;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -13,7 +13,7 @@
 
 .product-lead {
     font-size: 1.2rem;
-    color: #4a5568;
+    color: #333333;
     line-height: 1.6;
 }
 
@@ -32,7 +32,7 @@
 .product-hero-text h2 {
     font-size: 2.4rem;
     font-weight: 800;
-    color: #2c3e50;
+    color: #111111;
     line-height: 1.15;
     margin-bottom: 20px;
 }
@@ -43,11 +43,11 @@
 
 .product-pipeline {
     font-family: SFMono-Regular, Menlo, Consolas, monospace;
-    background: #2c3e50;
+    background: #111111;
     color: #fff;
     display: inline-block;
     padding: 8px 16px;
-    border-radius: 6px;
+    border-radius: 0;
     margin: 10px 0 25px;
 }
 
@@ -60,8 +60,8 @@
 .btn-product {
     display: inline-block;
     padding: 12px 28px;
-    border-radius: 25px;
-    font-weight: 700;
+    border-radius: 0;
+    font-weight: 600;
     text-decoration: none;
     transition: transform 0.2s ease;
 }
@@ -72,17 +72,18 @@
 }
 
 .btn-product-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #D7261E;
     color: #fff;
 }
 
 .btn-product-primary:hover {
+    background: #111111;
     color: #fff;
 }
 
 .btn-product-ghost {
-    border: 2px solid #667eea;
-    color: #667eea;
+    border: 1.5px solid #111111;
+    color: #111111;
 }
 
 .shot {
@@ -91,13 +92,12 @@
 
 .shot img {
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 12px 40px rgba(44, 62, 80, 0.18);
-    border: 1px solid #e2e8f0;
+    border-radius: 0;
+    border: 1px solid #DDDDDD;
 }
 
 .shot figcaption {
-    color: #6c757d;
+    color: #555555;
     font-size: 0.9rem;
     margin-top: 10px;
 }
@@ -110,9 +110,10 @@
 }
 
 .product-step {
-    background: #f8f9fa;
-    border-radius: 12px;
-    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 0;
+    border-top: 2px solid #111111;
+    padding: 25px 0;
     position: relative;
 }
 
@@ -124,20 +125,20 @@
     justify-content: center;
     width: 34px;
     height: 34px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 0;
+    background: #D7261E;
     color: #fff;
     font-weight: 700;
     margin-bottom: 12px;
 }
 
 .product-step h4 {
-    color: #2c3e50;
+    color: #111111;
     font-weight: 700;
 }
 
 .product-step p {
-    color: #6c757d;
+    color: #444444;
     margin: 0;
 }
 
@@ -160,9 +161,10 @@
 }
 
 .product-platforms span {
-    background: #eef1fd;
-    color: #4c51bf;
-    border-radius: 20px;
+    background: #FFFFFF;
+    color: #111111;
+    border: 1px solid #111111;
+    border-radius: 0;
     padding: 6px 16px;
     font-weight: 600;
     font-size: 0.95rem;

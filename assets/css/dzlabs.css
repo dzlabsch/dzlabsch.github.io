@@ -1,0 +1,205 @@
+/* DZLabs design A "Swiss Grid": loaded on every page via site-css. */
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-latin-wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/inter-tight-latin-wght.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --dz-ink: #111111;
+  --dz-text: #333333;
+  --dz-muted: #555555;
+  --dz-line: #DDDDDD;
+  --dz-red: #D7261E;
+  --dz-red-text: #B81F18;
+  --dz-red-on-dark: #FF6B63;
+  --dz-display: "Inter Tight", "Inter", system-ui, sans-serif;
+  --dz-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body,
+.navbar-custom,
+footer .copyright,
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading,
+.blog-tags, .post-meta {
+  font-family: var(--dz-body);
+}
+body { color: var(--dz-text); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--dz-display);
+  color: var(--dz-ink);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+a { color: var(--dz-red-text); }
+[id] { scroll-margin-top: 6rem; }
+a:hover, a:focus { color: var(--dz-ink); }
+
+/* Navbar */
+.navbar-custom {
+  font-style: normal;
+  font-weight: 500;
+  border-bottom: 1px solid var(--dz-ink);
+}
+.navbar-custom .navbar-nav .nav-link { text-transform: none; letter-spacing: 0; }
+@media (min-width: 1200px) {
+  .navbar-custom .navbar-nav .nav-item:last-child .nav-link {
+    background: var(--dz-ink);
+    color: #FFFFFF;
+    padding: 0.6rem 1.2rem;
+    margin-left: 0.75rem;
+    margin-right: 1rem;
+  }
+  .navbar-custom .navbar-nav .nav-item:last-child .nav-link:hover,
+  .navbar-custom .navbar-nav .nav-item:last-child .nav-link:focus {
+    background: var(--dz-red);
+    color: #FFFFFF;
+    opacity: 1;
+  }
+}
+
+/* Page headers: left-aligned, large display type */
+.intro-header .page-heading { text-align: left; }
+.intro-header .page-heading h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+.intro-header .page-heading hr.small {
+  margin: 1.5rem 0;
+  max-width: 4rem;
+  border-top: 4px solid var(--dz-red);
+}
+.intro-header .page-heading .page-subheading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--dz-text);
+  max-width: 46rem;
+}
+
+/* Buttons */
+.dz-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.9rem 1.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1.5px solid var(--dz-ink);
+  color: var(--dz-ink);
+  background: transparent;
+}
+.dz-btn:hover, .dz-btn:focus { background: var(--dz-ink); color: #FFFFFF; text-decoration: none; }
+.dz-btn-red { background: var(--dz-red); border-color: var(--dz-red); color: #FFFFFF; }
+.dz-btn-red:hover, .dz-btn-red:focus { background: var(--dz-ink); border-color: var(--dz-ink); }
+.dz-btn-light { background: #FFFFFF; border-color: #FFFFFF; color: var(--dz-ink); }
+.dz-btn-light:hover, .dz-btn-light:focus { background: transparent; color: #FFFFFF; }
+
+/* Shared section primitives */
+.dz-wrap { max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
+.dz-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dz-red-text);
+  margin: 0 0 1.5rem;
+}
+.dz-h2 {
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0;
+}
+
+/* Homepage */
+.dz-home { padding-top: 4rem; }
+.dz-hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+  gap: 3rem;
+  align-items: end;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+.dz-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 6.5rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+.dz-hero-lead { font-size: 1.25rem; line-height: 1.55; max-width: 32rem; margin: 0 0 2rem; }
+.dz-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+.dz-facts { border-top: 1px solid var(--dz-ink); border-bottom: 1px solid var(--dz-ink); }
+.dz-facts .dz-wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+.dz-fact { padding: 2rem 1.5rem 2rem 0; }
+.dz-fact + .dz-fact { padding-left: 1.5rem; border-left: 1px solid var(--dz-line); }
+.dz-fact strong { display: block; font-family: var(--dz-display); font-weight: 800; font-size: 3.5rem; line-height: 1.1; letter-spacing: -0.03em; color: var(--dz-ink); }
+.dz-fact span { font-size: 0.9rem; color: var(--dz-muted); }
+
+.dz-section { padding-top: 7rem; padding-bottom: 6rem; }
+.dz-section-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 3rem; }
+.dz-section-head p { margin: 0; max-width: 26rem; color: var(--dz-muted); }
+
+.dz-services { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); border-top: 2px solid var(--dz-ink); }
+.dz-service { padding: 2rem 1.5rem 2.5rem 0; }
+.dz-service + .dz-service { padding-left: 1.5rem; border-left: 1px solid var(--dz-line); }
+.dz-service .dz-num { font-family: var(--dz-display); font-weight: 700; font-size: 0.9rem; color: var(--dz-red-text); }
+.dz-service h3 { font-size: 1.5rem; margin: 1rem 0; }
+.dz-service p { font-size: 0.95rem; line-height: 1.6; margin: 0; }
+
+.dz-dark { background: var(--dz-ink); color: #E6E6E6; }
+.dz-dark h2, .dz-dark h3 { color: #FFFFFF; }
+.dz-dark .dz-eyebrow { color: var(--dz-red-on-dark); }
+.dz-product { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: 4rem; align-items: center; padding-top: 7rem; padding-bottom: 7rem; }
+.dz-product-lead { font-size: 1.35rem; line-height: 1.45; margin: 1.5rem 0; }
+.dz-dash-list { list-style: none; padding: 0; margin: 0 0 2rem; color: #CCCCCC; }
+.dz-dash-list li { padding-left: 1.75rem; position: relative; margin-bottom: 0.75rem; }
+.dz-dash-list li::before { content: "—"; position: absolute; left: 0; color: var(--dz-red-on-dark); font-weight: 700; }
+.dz-product img { width: 100%; border: 1px solid #333333; }
+
+.dz-why { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr)); gap: 4rem; }
+.dz-why > div > p { font-size: 1.1rem; line-height: 1.6; margin-top: 1.5rem; }
+.dz-rows { border-top: 2px solid var(--dz-ink); }
+.dz-row { display: grid; grid-template-columns: 10rem 1fr; gap: 1rem; padding: 1.5rem 0; border-bottom: 1px solid var(--dz-line); }
+.dz-row strong { font-family: var(--dz-display); font-size: 1.1rem; color: var(--dz-ink); }
+@media (max-width: 575px) {
+  .dz-row { grid-template-columns: 1fr; }
+  .dz-fact + .dz-fact, .dz-service + .dz-service { padding-left: 0; border-left: 0; border-top: 1px solid var(--dz-line); }
+}
+
+/* Footer */
+footer.dz-footer { margin-top: 0; padding: 0; border: 0; background: var(--dz-red); color: #FFFFFF; }
+footer.dz-footer a { color: #FFFFFF; }
+footer.dz-footer a.dz-btn-light { color: var(--dz-ink); }
+footer.dz-footer a.dz-btn-light:hover, footer.dz-footer a.dz-btn-light:focus { color: #FFFFFF; border-color: #FFFFFF; }
+.dz-footer-cta { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 2rem; padding-top: 6rem; padding-bottom: 4rem; }
+.dz-footer-cta h2 { color: #FFFFFF; margin: 0; max-width: 50rem; font-size: clamp(2.5rem, 6vw, 5.5rem); font-weight: 800; line-height: 0.95; letter-spacing: -0.04em; }
+.dz-footer-bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; padding-top: 1.5rem; padding-bottom: 3rem; border-top: 1px solid rgba(255, 255, 255, 0.5); font-size: 0.9rem; }
+.dz-footer-bar ul { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; list-style: none; margin: 0; padding: 0; }
+.dz-footer-bar a { text-decoration: underline; text-underline-offset: 3px; }
+.dz-footer-bar a:hover, .dz-footer-bar a:focus { color: var(--dz-ink); }
+
+/* Legal pages and contact block */
+.dz-legal { max-width: 46rem; }
+.dz-legal h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+.dz-contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); border-top: 2px solid var(--dz-ink); margin: 2rem 0 4rem; }
+.dz-contact > div { padding: 1.5rem 1.5rem 1.5rem 0; }
+.dz-contact h3 { font-size: 1.1rem; margin: 0 0 0.75rem; }
+.dz-contact p { margin: 0 0 0.25rem; }

@@ -11,56 +11,40 @@
     padding: 0 20px !important;
 }
 
-/* Custom Service Card Styles */
+/* Service and feature cards (design A: flat, ruled, no shadows) */
 .service-card {
-    background: #f8f9fa !important;
-    padding: 25px !important;
-    border-radius: 12px !important;
+    background: #FFFFFF !important;
+    padding: 24px 0 8px !important;
+    border-radius: 0 !important;
     height: 100% !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
-    border: none !important;
-    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-top: 2px solid #111111 !important;
 }
 
-.service-card:hover {
-    transform: translateY(-5px) !important;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
-}
-
-.service-card.border-blue {
-    border-left: 4px solid #007bff !important;
-}
-
-.service-card.border-green {
-    border-left: 4px solid #28a745 !important;
-}
-
-.service-card.border-yellow {
-    border-left: 4px solid #ffc107 !important;
-}
-
+.service-card.border-blue,
+.service-card.border-green,
+.service-card.border-yellow,
 .service-card.border-red {
-    border-left: 4px solid #dc3545 !important;
+    border-left: 0 !important;
 }
 
 .service-card h4 {
-    color: #2c3e50 !important;
+    color: #111111 !important;
     margin-bottom: 15px !important;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
 }
 
 .service-card p {
-    color: #6c757d !important;
+    color: #444444 !important;
     line-height: 1.6 !important;
     margin-bottom: 0 !important;
 }
 
-/* Removed duplicate - padding handled above */
-
 .ai-services-title {
     margin-bottom: 30px !important;
-    color: #2c3e50 !important;
-    font-weight: 700 !important;
+    color: #111111 !important;
+    font-weight: 800 !important;
 }
 
 .service-column {
@@ -69,38 +53,44 @@
 }
 
 .feature-card {
-    padding: 25px !important;
-    background: rgba(255,255,255,0.8) !important;
-    border-radius: 12px !important;
-    text-align: center !important;
+    padding: 24px 0 !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    border-top: 1px solid #DDDDDD !important;
     height: 100% !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+    box-shadow: none !important;
+}
+
+.feature-card h5 {
+    color: #111111 !important;
 }
 
 .cta-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
-    color: white !important;
-    padding: 30px !important;
-    border-radius: 8px !important;
+    background: #111111 !important;
+    color: #FFFFFF !important;
+    padding: 48px 32px !important;
+    border-radius: 0 !important;
     margin: 30px 0 !important;
 }
 
+.cta-section h3 {
+    color: #FFFFFF !important;
+}
+
 .cta-btn {
-    background: white !important;
-    color: #667eea !important;
-    font-weight: bold !important;
-    padding: 10px 30px !important;
-    border-radius: 25px !important;
+    background: #FFFFFF !important;
+    color: #111111 !important;
+    font-weight: 600 !important;
+    padding: 14px 28px !important;
+    border-radius: 0 !important;
     text-decoration: none !important;
     display: inline-block !important;
-    transition: all 0.3s ease !important;
 }
 
 .cta-btn:hover {
-    background: #f8f9fa !important;
-    color: #667eea !important;
+    background: #D7261E !important;
+    color: #FFFFFF !important;
     text-decoration: none !important;
-    transform: translateY(-2px) !important;
 }
 
 /* Responsive adjustments */
